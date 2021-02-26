@@ -13,4 +13,4 @@ The pivot in the QuickSort algorithm is chosen uniformly random.
 Both algorithms are very consistent in their runtime, this is expected for MergeSort algorithm since its running time is <img src="https://render.githubusercontent.com/render/math?math=\theta(n \log n)">, but for QuickSort the randomness helps to achieve a expected runtime of <img src="https://render.githubusercontent.com/render/math?math=n \log n">. This experiment shows that not only the expected runtime of quicksort is <img src="https://render.githubusercontent.com/render/math?math=n \log n"> but also with high probability
 the runtime does not significantly exceed the expected runtime. 
 
-<img src="https://raw.githubusercontent.com/benyaminbashari/Randomized-Algorithms/master/sort/comparison.png">
+![plot](./comparison.png)
